@@ -73,7 +73,7 @@ job("testing_4") {
 job('email_alert_5') {
     publishers {
         extendedEmail {
-            recipientList('visnetbbsrzabbix@gmail.com')
+            recipientList('EMAILADDRESS@gmail.com')
             defaultSubject('Oops code failed....')
             defaultContent('Something broken')
             contentType('text/html')
